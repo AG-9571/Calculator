@@ -15,7 +15,7 @@ The calculator is an application that allows performing basic mathematical opera
  1- Clone the project repository: 
 
 ``` bash 
-    git clone <REPOSITORY_URL>
+    git clone git@github.com:AG-9571/Calculator.git
 ```
 
 2- Navigate to the project directory:
@@ -30,18 +30,16 @@ The calculator is an application that allows performing basic mathematical opera
 ``` bash
     docker-compose up
 ```
-5- dsmslmds
+5- Make sure that the container is running correctly.
 ``` bash
 docker ps
 ```
 
-7- te mostarar los nombre del contenedor y hay podras tener mas aplicacion
-
-6- inserta el nombre de del conrtenedor o id en el parametro <name-container>.
+6- "Insert the name of the container or ID in the <name-container> parameter..
 ``` bash
 docker exec -it <name-container> sh
 ```
-7- dlaldsnlsd
+7- Run the application in the sh terminal.
 ``` bash
 npm run dev
 ```
@@ -73,4 +71,5 @@ http://localhost:4000
 ``
 
 ## licence
+Esta aplicación está bajo la Licencia MIT. Para más información, consulta el archivo ``licence``.
 
