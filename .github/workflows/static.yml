@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.rules }}
+      url: https://github.com/AG-9571/Calculator/tree/main/rules
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
