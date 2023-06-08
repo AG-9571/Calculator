@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://github.com/AG-9571/Calculator/blob/main/rules/index.html
+      url: ../../rules/index.html
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
