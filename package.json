@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deplit": "gh-pages -d rules",
     "dev": "npx ts-node index.ts",
     "start": "node rules/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,7 @@
   "author": "Ángel Ortega",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
   }

@@ -15,7 +15,7 @@ The calculator is an application that allows performing basic mathematical opera
  1- Clone the project repository: 
 
 ``` bash 
-    git clone git@github.com:AG-9571/Calculator.git
+    git clone https://github.com/AG-9571/Calculator.git
 ```
 
 2- Navigate to the project directory:
@@ -50,7 +50,7 @@ npm run dev
  1- Clone the project repository: 
 
 ``` bash 
-    git clone <REPOSITORY_URL>
+    git clone https://github.com/AG-9571/Calculator.git
 ```
 
 2- Navigate to the project directory:
