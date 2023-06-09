@@ -10,14 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout del repositorio
-      uses: actions/checkout@v2
+      - name: Checkout del repositorio
+        uses: actions/checkout@v2
 
-    - name: Configurar Docker
-      uses: docker/setup-docker@v2
-
-    - name: Construir imagen de Docker
-      run: docker build -t mi-componente .
-
-    - name: Ejecutar componente de Docker
-      run: docker run mi-componente
+      - name: Configurar Docker Compose
+        run: docker-compose up -d
