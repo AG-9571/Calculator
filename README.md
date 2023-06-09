@@ -67,7 +67,7 @@ npm run dev
 ## rules
 To fetch the rules from a specific URL of the page, follow the steps below:
 ``
-http://localhost:4000
+https://ag-9571.github.io/Calculator/
 ``
 
 ## licence
